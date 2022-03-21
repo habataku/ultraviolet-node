@@ -2,7 +2,9 @@
   "version": 2,
   "regions": ["iad1"],
   "builds": [
-    { "src": "/index.js","use": "@vercel/node" }
+    { "src": "/index.js","use": "@vercel/node" },
+    { "src": "static/**","use": "@vercel/static" },
+    { "src": "bare/**","use": "@vercel/node" }
   ],
   "routes": [
     { "src": "/","dest": "/static/index.html" }
