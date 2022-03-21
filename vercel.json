@@ -4,7 +4,6 @@
   "builds": [
     { "src": "/index.js","use": "@vercel/node" },
     { "src": "static/**","use": "@vercel/node" },
-    { "src": "bare/**","use": "@vercel/node" }
   ],
   "routes": [
     { "src": "/","dest": "/static/index.html" }
