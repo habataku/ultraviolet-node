@@ -1,6 +1,6 @@
 self.__uv$config = {
     prefix: '/service/',
-    bare: '/bare/',
+    bare: 'https://ultraviolet-node-alpha.vercel.app/bare/',
     encodeUrl: Ultraviolet.codec.xor.encode,
     decodeUrl: Ultraviolet.codec.xor.decode,
     handler: '/uv/uv.handler.js',
