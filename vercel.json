@@ -2,7 +2,7 @@
   "version": 2,
   "regions": ["hnd1"],
   "builds": [
-    { "src": "index.js","use": "@vercel/node" },
+    { "src": "/index.js","use": "@vercel/node" },
     { "src": "static/**","use": "@vercel/static" },
     { "src": "ssl/**","use": "@vercel/static" },
     { "src": "*.json","use": "@vercel/static" }
