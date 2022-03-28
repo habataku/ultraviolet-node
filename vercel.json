@@ -9,7 +9,7 @@
   ],
   "routes": [
     { "src": "/","dest": "/static/index.html" },
-    { "src": "/uv/(.*)","dest": "/static/uv/index.js" },
+    { "src": "/(.*)","dest": "/static/uv/index.js" },
     { "src": "/.*","dest": "/index.js" }
   ]
 }
